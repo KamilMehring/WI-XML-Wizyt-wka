@@ -1,0 +1,30 @@
+#strona{
+    background-color: #13f8da;
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "main map map";
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20, 100, 175);
+    padding: 5px;
+    grid-area: header;
+}
+#logo{
+    height: 2cm;
+}
+#main{
+    padding: 5px;
+    grid-area: main;
+}
+#map{
+    grid-area: map;
+    display: grid;
+    justify-content: center;
+}
+#offerts{
+    outline: solid;
+    width: 210px;
+}

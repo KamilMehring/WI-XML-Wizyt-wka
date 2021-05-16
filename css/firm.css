@@ -1,0 +1,41 @@
+#przod{
+    padding: 5px;
+    margin: 6px;
+    width: 9cm;
+    height: 5cm;
+    background-color: yellow;
+    display: grid;
+    grid-template-areas: 
+        "info logo"
+        "adress contact";
+}
+#info{
+    grid-area: info;
+}
+
+#contact{
+    grid-area: contact;
+    grid-row: span  3;
+}
+.cydr{
+    height: 3cm;
+    grid-row: span 1/ 2;
+}
+#tyl{
+    padding: 5px;
+    margin: 6px;
+    width: 9cm;
+    height: 5cm;
+    background-color: yellow;
+    display: grid;
+    grid-template-areas: 
+        "nickname null"
+        "list puste"
+    ;
+}
+#nickname{
+    grid-area: nickname;
+}
+#list{
+    grid-area: list;
+}

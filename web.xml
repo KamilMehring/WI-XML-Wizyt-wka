@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="xsl/web.xsl" ?>
+<company>
+  <metadata>
+    <name>Grafik Mehring</name>
+    <nick>Kamil</nick>
+    <surname>Mehring
+    </surname>
+  </metadata>
+  <contact>
+    <status>Kontakt</status>
+    <tel>Telefon: 645 353 953</tel>
+    <mail>email: kamil.mehirng@gmail.com</mail>
+    <city>Gorzów</city>
+    <code>66-400</code>
+    <street>Dąbrowskiego</street>
+    <nr>7</nr>
+  </contact>
+  <offerts>
+    <offert>
+      <status>Oferta</status>
+      <name>Projekt logo
+      </name>
+      <price>200 zł</price>
+    </offert>
+    <offert>
+      <name>Projekt baneru
+      </name>
+      <price>500zł</price>
+    </offert>
+    <offert>
+      <name>Projekt wizytówki
+      </name>
+      <price>100 zł</price>
+    </offert>
+  </offerts>
+</company>
